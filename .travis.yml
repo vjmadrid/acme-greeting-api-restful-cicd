@@ -27,4 +27,4 @@ jobs:
       before_install:
         - echo -e "RUNNING..."
       script:
-        - mvn spring-boot:run
+        - mvn package
