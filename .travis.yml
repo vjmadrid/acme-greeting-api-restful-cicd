@@ -2,3 +2,28 @@ language: java
 
 jdk:
 - openjdk8
+
+branches:
+  only:
+  - develop
+
+stages:
+  - name: build
+  - name: deploy
+
+jobs:
+  include:
+    - stage: build
+      cache:
+        directories:
+        - $HOME/.m2
+      before_install:
+        - mecho -e "INSTALL..."
+      script:
+        - mvn clean install
+
+    - stage: deploy
+      before_install:
+        - echo -e "RUNNING..."
+      script:
+        - mvn springboot run
