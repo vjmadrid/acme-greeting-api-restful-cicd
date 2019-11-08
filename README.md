@@ -1,5 +1,9 @@
 # acme-greeting-api-restful-cicd
 
+[https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd.svg?branch=develop]
+
+!(Build Status)[https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd.svg?branch=develop]
+
 This project represents a basic API REST with **Hello World (Greeting)**
 
 Implementing Continuous Integration/Continuous Delivery on Spring Boot Java App
@@ -85,12 +89,12 @@ Spring Boot
 1. Execute the following command
 
 ```bash
-mvn package 
+mvn package
 ```
 
 Package the application in a single/fat JAR file (executable JAR + All dependencies + Embedded Servlet Container if its a web applications)
 
-To run the jar file use the following command 
+To run the jar file use the following command
 
 ```bash
 java -jar target/acme-greeting-api-restful-0.0.1-SNAPSHOT.jar
@@ -116,7 +120,7 @@ mvn package -Pprod
 ```
 Package the application in a single/fat JAR file (executable JAR + All dependencies + Embedded Servlet Container if its a web applications)
 
-To run the jar file use the following command 
+To run the jar file use the following command
 
 ```bash
 java -jar target/acme-greeting-api-restful-0.0.1-SNAPSHOT.jar
