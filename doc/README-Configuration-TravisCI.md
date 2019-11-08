@@ -48,6 +48,13 @@ Add the .travis.yml file to GitHub -> Commit and push
 
 * Verify the build status -> visiting Travis CI and selecting your repository
 
+##
+
+Add
+
+```bash
+[![Build Status](https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd.svg?branch=develop)](https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd)
+```
 
 ## Authors
 
