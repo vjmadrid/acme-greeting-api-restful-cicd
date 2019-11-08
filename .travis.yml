@@ -18,7 +18,7 @@ jobs:
         directories:
         - $HOME/.m2
       before_install:
-        - mecho -e "INSTALL..."
+        - echo -e "INSTALL..."
       script:
         - mvn clean install
 
