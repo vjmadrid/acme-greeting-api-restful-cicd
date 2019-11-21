@@ -13,11 +13,17 @@ Step to follow:
 * Import Project
 
 
+
+
+
 ## Check Prerequisites
 
 * Sign up with GitHub
 * Accept the Authorization
 * Select the repositories you want to use
+
+
+
 
 
 ## Configure Project
@@ -38,6 +44,9 @@ branches:
 Add the .travis.yml file to GitHub -> Commit and push
 
 
+
+
+
 ## Build Project with Travis CI
 
 * OPTIONAL : Change code
@@ -48,9 +57,13 @@ Add the .travis.yml file to GitHub -> Commit and push
 
 * Verify the build status -> visiting Travis CI and selecting your repository
 
-##
 
-Add
+
+
+
+### Add Information
+
+Add the following sentence in the "README.md" file
 
 ```bash
 [![Build Status](https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd.svg?branch=develop)](https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd)

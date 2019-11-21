@@ -1,5 +1,7 @@
 # acme-greeting-api-restful
 
+[![Build Status](https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd.svg?branch=develop)](https://travis-ci.com/vjmadrid/acme-greeting-api-restful-cicd)
+
 This project represents a basic API REST with **Hello World (Greeting)**
 
 Invoke : localhost:<port>/greeting
