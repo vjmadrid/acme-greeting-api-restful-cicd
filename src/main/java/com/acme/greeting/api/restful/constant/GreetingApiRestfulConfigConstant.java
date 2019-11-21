@@ -1,4 +1,4 @@
-package com.acme.greeting.api.restful.cicd.constant;
+package com.acme.greeting.api.restful.constant;
 
 public final class GreetingApiRestfulConfigConstant {
 
@@ -6,6 +6,6 @@ public final class GreetingApiRestfulConfigConstant {
 	}
 	
 	public static final String GENERIC_PACKAGE = "com.acme.greeting";
-	public static final String BASE_PACKAGE = GENERIC_PACKAGE + ".api.restful.cicd";
+	public static final String BASE_PACKAGE = GENERIC_PACKAGE + ".api.restful";
 	
 }

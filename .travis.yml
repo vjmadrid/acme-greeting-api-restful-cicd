@@ -7,10 +7,6 @@ branches:
   only:
   - develop
 
-stages:
-  - name: build
-  - name: deploy
-
 cache:
   directories:
     - '$HOME/.m2/repository'
@@ -28,4 +24,4 @@ jobs:
       before_install:
         - echo -e "RUNNING..."
       script:
-        - mvn package
+        - mvn package -Pprod -DskipTests=true

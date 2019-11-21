@@ -1,4 +1,4 @@
-package com.acme.greeting.api.restful.cicd;
+package com.acme.greeting.api.restful;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.acme.greeting.api.restful.cicd.constant.GreetingRestApiConstant;
+import com.acme.greeting.api.restful.constant.GreetingRestApiConstant;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

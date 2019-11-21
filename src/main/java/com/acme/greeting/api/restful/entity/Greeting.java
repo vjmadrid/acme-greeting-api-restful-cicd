@@ -1,4 +1,4 @@
-package com.acme.greeting.api.restful.cicd.entity;
+package com.acme.greeting.api.restful.entity;
 
 import java.util.Date;
 

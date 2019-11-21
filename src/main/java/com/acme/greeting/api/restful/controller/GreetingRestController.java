@@ -1,4 +1,4 @@
-package com.acme.greeting.api.restful.cicd.controller;
+package com.acme.greeting.api.restful.controller;
 
 
 import java.util.concurrent.atomic.AtomicLong;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.acme.greeting.api.restful.cicd.constant.GreetingRestApiConstant;
-import com.acme.greeting.api.restful.cicd.entity.Greeting;
+import com.acme.greeting.api.restful.constant.GreetingRestApiConstant;
+import com.acme.greeting.api.restful.entity.Greeting;
 
 @RestController
 @RequestMapping(GreetingRestApiConstant.MAPPING)

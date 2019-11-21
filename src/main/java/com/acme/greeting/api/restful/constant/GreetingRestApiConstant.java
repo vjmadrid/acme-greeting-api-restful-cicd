@@ -1,4 +1,4 @@
-package com.acme.greeting.api.restful.cicd.constant;
+package com.acme.greeting.api.restful.constant;
 
 public final class GreetingRestApiConstant {
 

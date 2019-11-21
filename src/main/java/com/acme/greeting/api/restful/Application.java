@@ -1,4 +1,4 @@
-package com.acme.greeting.api.restful.cicd;
+package com.acme.greeting.api.restful;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
