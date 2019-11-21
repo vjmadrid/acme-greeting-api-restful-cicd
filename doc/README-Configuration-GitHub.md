@@ -11,9 +11,15 @@ Step to follow:
 * Configure Repository
 
 
+
+
+
 ## Check Prerequisites
 
 * Require sign in or sign -> Create GitHub user
+
+
+
 
 
 ## Create Repository
@@ -93,10 +99,16 @@ Copy the pom.xml file provided for the exercise on PROJECT_PATH
               / .RESEARCHES.md
 
 
+
+
+
 ## Configure Repository
 
               Create Develop Branch
               * Configure Default
+
+
+
 
 
 ## Authors

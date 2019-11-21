@@ -9,11 +9,17 @@ Step to follow:
 * Import Project
 
 
+
+
+
 ## Check Prerequisites
 
 * Select IDE : Eclipse , Idea, ...
 * Verify that the IDE to be used is installed
 * Verify that you have integrated Maven
+
+
+
 
 
 ## Create/Configure Workspace
@@ -36,9 +42,15 @@ For example (Eclipse) : Preferences > General > Workspace
 * Change Text File Encoding : UTF-8
 
 
+
+
+
 ## Import the project
 
 Import the project with Maven
+
+
+
 
 
 ## Authors
