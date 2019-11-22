@@ -26,6 +26,7 @@
 
 		<!-- Compiler & Resources -->
 		<java.version>1.8</java.version>
+
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -126,11 +127,11 @@
 
 		<plugins>
 
+			<!-- spring-boot-maven-plugin : Plugin used to work with Spring Boot application -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-
 
 			<!-- maven-resources-plugin : Plugin used to handle the project resources -->
 			<plugin>
@@ -152,9 +153,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- maven-verifier-plugin : Plugin used to verify the existence of files 
-				and directories -->
-
+			<!-- maven-verifier-plugin : Plugin used to verify the existence of files and directories -->
 			<plugin>
 				<artifactId>maven-verifier-plugin</artifactId>
 				<version>1.1</version>
@@ -173,9 +172,7 @@
 				</executions>
 			</plugin>
 
-			<!-- maven-surefire-plugin : Plugin used to run unit tests - Generate 
-				reports in the directory target/surefire-reports -->
-
+			<!-- maven-surefire-plugin : Plugin used to run unit tests - Generate reports in the directory target/surefire-reports -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -212,6 +209,7 @@
 				</executions>
 			</plugin>
 
+			<!-- jacoco-maven-plugin : Plugin used to generate code coverage -->
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>

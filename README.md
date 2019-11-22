@@ -17,7 +17,9 @@ This projects stands out for:
 * Provides **Log Configuration File** (logback.yml)
 * Provides **Spring/Maven Profile Integration**
 * Provides **Swagger** for document the Restful API
+* Provides **Verify Files / Content with Verifier**
 * Provides **Standard Surefire Test Filter with Profiles** (unit & integration test)
+* Provides **Code Coverage with JACOCO** 
 * Provides **Dockerfile**
 
 
@@ -279,6 +281,23 @@ Create a Docker container
 ```bash
 docker run -p 8091:8091 -t acme/acme-greeting-api-restful
 ```
+
+
+
+
+
+## Step by Step : CI/CD
+
+BUILD
+- [Configuration GitHub](#README-Configuration-GitHub.md)
+- [Configuration IDE](#README-Configuration-GitHub.md)
+- [Configuration Project](#README-Configuration-Project.md)
+- [Configuration Maven Plugins](#README-Configuration-Maven-Plugins.md)
+
+CI/CD
+- [Configuration Travis CI](#README-Configuration-TravisCI.md)
+- [Configuration CodeCov](#README-Configuration-Codecov.md)
+
 
 
 
